@@ -1,0 +1,303 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly loadIdealTree Finishing
+21 silly currentTree todo-backend-client@1.0.0
+21 silly currentTree ├── abbrev@1.1.1
+21 silly currentTree ├── accepts@1.3.5
+21 silly currentTree ├─┬ argparse@0.1.16
+21 silly currentTree │ └── underscore.string@2.4.0
+21 silly currentTree ├── array-flatten@1.1.1
+21 silly currentTree ├── async@0.1.22
+21 silly currentTree ├── balanced-match@1.0.0
+21 silly currentTree ├── body-parser@1.18.2
+21 silly currentTree ├── bower@1.8.4
+21 silly currentTree ├── brace-expansion@1.1.11
+21 silly currentTree ├── bytes@3.0.0
+21 silly currentTree ├── coffee-script@1.3.3
+21 silly currentTree ├── colors@0.6.2
+21 silly currentTree ├── concat-map@0.0.1
+21 silly currentTree ├── content-disposition@0.5.2
+21 silly currentTree ├── content-type@1.0.4
+21 silly currentTree ├── cookie-signature@1.0.6
+21 silly currentTree ├── cookie@0.3.1
+21 silly currentTree ├── dateformat@1.0.2-1.2.3
+21 silly currentTree ├── debug@2.6.9
+21 silly currentTree ├── depd@1.1.2
+21 silly currentTree ├── destroy@1.0.4
+21 silly currentTree ├── ee-first@1.1.1
+21 silly currentTree ├── encodeurl@1.0.2
+21 silly currentTree ├── escape-html@1.0.3
+21 silly currentTree ├── esprima@1.0.4
+21 silly currentTree ├── etag@1.8.1
+21 silly currentTree ├── eventemitter2@0.4.14
+21 silly currentTree ├── exit@0.1.2
+21 silly currentTree ├── express@4.16.3
+21 silly currentTree ├── finalhandler@1.1.1
+21 silly currentTree ├─┬ findup-sync@0.1.3
+21 silly currentTree │ ├── glob@3.2.11
+21 silly currentTree │ ├── lodash@2.4.2
+21 silly currentTree │ └── minimatch@0.3.0
+21 silly currentTree ├── forwarded@0.1.2
+21 silly currentTree ├── fresh@0.5.2
+21 silly currentTree ├── getobject@0.1.0
+21 silly currentTree ├─┬ glob@3.1.21
+21 silly currentTree │ └── inherits@1.0.2
+21 silly currentTree ├── graceful-fs@1.2.3
+21 silly currentTree ├─┬ grunt-bowercopy@1.2.4
+21 silly currentTree │ ├── glob@4.5.3
+21 silly currentTree │ ├── lodash@3.10.1
+21 silly currentTree │ └── minimatch@2.0.10
+21 silly currentTree ├── grunt-contrib-clean@0.6.0
+21 silly currentTree ├─┬ grunt-legacy-log-utils@0.1.1
+21 silly currentTree │ ├── lodash@2.4.2
+21 silly currentTree │ └── underscore.string@2.3.3
+21 silly currentTree ├─┬ grunt-legacy-log@0.1.3
+21 silly currentTree │ ├── lodash@2.4.2
+21 silly currentTree │ └── underscore.string@2.3.3
+21 silly currentTree ├── grunt-legacy-util@0.2.0
+21 silly currentTree ├─┬ grunt@0.4.5
+21 silly currentTree │ └── iconv-lite@0.2.11
+21 silly currentTree ├── hooker@0.2.3
+21 silly currentTree ├── http-errors@1.6.3
+21 silly currentTree ├── iconv-lite@0.4.19
+21 silly currentTree ├── inflight@1.0.6
+21 silly currentTree ├── inherits@2.0.3
+21 silly currentTree ├── ipaddr.js@1.6.0
+21 silly currentTree ├── js-yaml@2.0.5
+21 silly currentTree ├── lodash@0.9.2
+21 silly currentTree ├── lru-cache@2.7.3
+21 silly currentTree ├── media-typer@0.3.0
+21 silly currentTree ├── merge-descriptors@1.0.1
+21 silly currentTree ├── methods@1.1.2
+21 silly currentTree ├── mime-db@1.33.0
+21 silly currentTree ├── mime-types@2.1.18
+21 silly currentTree ├── mime@1.4.1
+21 silly currentTree ├── minimatch@0.2.14
+21 silly currentTree ├── ms@2.0.0
+21 silly currentTree ├── negotiator@0.6.1
+21 silly currentTree ├── nopt@1.0.10
+21 silly currentTree ├── on-finished@2.3.0
+21 silly currentTree ├── once@1.4.0
+21 silly currentTree ├── parseurl@1.3.2
+21 silly currentTree ├── path-to-regexp@0.1.7
+21 silly currentTree ├── proxy-addr@2.0.3
+21 silly currentTree ├── qs@6.5.1
+21 silly currentTree ├── range-parser@1.2.0
+21 silly currentTree ├─┬ raw-body@2.3.2
+21 silly currentTree │ ├── depd@1.1.1
+21 silly currentTree │ ├── http-errors@1.6.2
+21 silly currentTree │ └── setprototypeof@1.0.3
+21 silly currentTree ├── rimraf@2.2.8
+21 silly currentTree ├── safe-buffer@5.1.1
+21 silly currentTree ├── send@0.16.2
+21 silly currentTree ├── serve-static@1.13.2
+21 silly currentTree ├── setprototypeof@1.1.0
+21 silly currentTree ├── sigmund@1.0.1
+21 silly currentTree ├── statuses@1.4.0
+21 silly currentTree ├── type-is@1.6.16
+21 silly currentTree ├── underscore.string@2.2.1
+21 silly currentTree ├── underscore@1.7.0
+21 silly currentTree ├── unpipe@1.0.0
+21 silly currentTree ├── utils-merge@1.0.1
+21 silly currentTree ├── vary@1.1.2
+21 silly currentTree ├── which@1.0.9
+21 silly currentTree └── wrappy@1.0.2
+22 silly idealTree todo-backend-client@1.0.0
+22 silly idealTree ├── abbrev@1.1.1
+22 silly idealTree ├── accepts@1.3.5
+22 silly idealTree ├─┬ argparse@0.1.16
+22 silly idealTree │ └── underscore.string@2.4.0
+22 silly idealTree ├── array-flatten@1.1.1
+22 silly idealTree ├── async@0.1.22
+22 silly idealTree ├── balanced-match@1.0.0
+22 silly idealTree ├── body-parser@1.18.2
+22 silly idealTree ├── bower@1.8.4
+22 silly idealTree ├── brace-expansion@1.1.11
+22 silly idealTree ├── bytes@3.0.0
+22 silly idealTree ├── coffee-script@1.3.3
+22 silly idealTree ├── colors@0.6.2
+22 silly idealTree ├── concat-map@0.0.1
+22 silly idealTree ├── content-disposition@0.5.2
+22 silly idealTree ├── content-type@1.0.4
+22 silly idealTree ├── cookie-signature@1.0.6
+22 silly idealTree ├── cookie@0.3.1
+22 silly idealTree ├── dateformat@1.0.2-1.2.3
+22 silly idealTree ├── debug@2.6.9
+22 silly idealTree ├── depd@1.1.2
+22 silly idealTree ├── destroy@1.0.4
+22 silly idealTree ├── ee-first@1.1.1
+22 silly idealTree ├── encodeurl@1.0.2
+22 silly idealTree ├── escape-html@1.0.3
+22 silly idealTree ├── esprima@1.0.4
+22 silly idealTree ├── etag@1.8.1
+22 silly idealTree ├── eventemitter2@0.4.14
+22 silly idealTree ├── exit@0.1.2
+22 silly idealTree ├── express@4.16.3
+22 silly idealTree ├── finalhandler@1.1.1
+22 silly idealTree ├─┬ findup-sync@0.1.3
+22 silly idealTree │ ├── glob@3.2.11
+22 silly idealTree │ ├── lodash@2.4.2
+22 silly idealTree │ └── minimatch@0.3.0
+22 silly idealTree ├── forwarded@0.1.2
+22 silly idealTree ├── fresh@0.5.2
+22 silly idealTree ├── getobject@0.1.0
+22 silly idealTree ├─┬ glob@3.1.21
+22 silly idealTree │ └── inherits@1.0.2
+22 silly idealTree ├── graceful-fs@1.2.3
+22 silly idealTree ├─┬ grunt-bowercopy@1.2.4
+22 silly idealTree │ ├── glob@4.5.3
+22 silly idealTree │ ├── lodash@3.10.1
+22 silly idealTree │ └── minimatch@2.0.10
+22 silly idealTree ├── grunt-contrib-clean@0.6.0
+22 silly idealTree ├─┬ grunt-legacy-log-utils@0.1.1
+22 silly idealTree │ ├── lodash@2.4.2
+22 silly idealTree │ └── underscore.string@2.3.3
+22 silly idealTree ├─┬ grunt-legacy-log@0.1.3
+22 silly idealTree │ ├── lodash@2.4.2
+22 silly idealTree │ └── underscore.string@2.3.3
+22 silly idealTree ├── grunt-legacy-util@0.2.0
+22 silly idealTree ├─┬ grunt@0.4.5
+22 silly idealTree │ └── iconv-lite@0.2.11
+22 silly idealTree ├── hooker@0.2.3
+22 silly idealTree ├── http-errors@1.6.3
+22 silly idealTree ├── iconv-lite@0.4.19
+22 silly idealTree ├── inflight@1.0.6
+22 silly idealTree ├── inherits@2.0.3
+22 silly idealTree ├── ipaddr.js@1.6.0
+22 silly idealTree ├── js-yaml@2.0.5
+22 silly idealTree ├── lodash@0.9.2
+22 silly idealTree ├── lru-cache@2.7.3
+22 silly idealTree ├── media-typer@0.3.0
+22 silly idealTree ├── merge-descriptors@1.0.1
+22 silly idealTree ├── methods@1.1.2
+22 silly idealTree ├── mime-db@1.33.0
+22 silly idealTree ├── mime-types@2.1.18
+22 silly idealTree ├── mime@1.4.1
+22 silly idealTree ├── minimatch@0.2.14
+22 silly idealTree ├── ms@2.0.0
+22 silly idealTree ├── negotiator@0.6.1
+22 silly idealTree ├── nopt@1.0.10
+22 silly idealTree ├── on-finished@2.3.0
+22 silly idealTree ├── once@1.4.0
+22 silly idealTree ├── parseurl@1.3.2
+22 silly idealTree ├── path-to-regexp@0.1.7
+22 silly idealTree ├── proxy-addr@2.0.3
+22 silly idealTree ├── qs@6.5.1
+22 silly idealTree ├── range-parser@1.2.0
+22 silly idealTree ├─┬ raw-body@2.3.2
+22 silly idealTree │ ├── depd@1.1.1
+22 silly idealTree │ ├── http-errors@1.6.2
+22 silly idealTree │ └── setprototypeof@1.0.3
+22 silly idealTree ├── rimraf@2.2.8
+22 silly idealTree ├── safe-buffer@5.1.1
+22 silly idealTree ├── send@0.16.2
+22 silly idealTree ├── serve-static@1.13.2
+22 silly idealTree ├── setprototypeof@1.1.0
+22 silly idealTree ├── sigmund@1.0.1
+22 silly idealTree ├── statuses@1.4.0
+22 silly idealTree ├── type-is@1.6.16
+22 silly idealTree ├── underscore.string@2.2.1
+22 silly idealTree ├── underscore@1.7.0
+22 silly idealTree ├── unpipe@1.0.0
+22 silly idealTree ├── utils-merge@1.0.1
+22 silly idealTree ├── vary@1.1.2
+22 silly idealTree ├── which@1.0.9
+22 silly idealTree └── wrappy@1.0.2
+23 silly generateActionsToTake Starting
+24 silly install generateActionsToTake
+25 silly generateActionsToTake Finishing
+26 silly diffTrees action count 0
+27 silly decomposeActions action count 0
+28 silly runTopLevelLifecycles Starting
+29 silly install runPreinstallTopLevelLifecycles
+30 silly preinstall todo-backend-client@1.0.0 /home/ansible/Todo/todobackend-client/todo-backend-client-0391428e
+31 info lifecycle todo-backend-client@1.0.0~preinstall: todo-backend-client@1.0.0
+32 silly lifecycle todo-backend-client@1.0.0~preinstall: no script for preinstall, continuing
+33 silly executeActions Starting
+34 silly install executeActions
+35 silly doSerial global-install 0
+36 silly doParallel fetch 0
+37 verbose correctMkdir /home/ansible/.npm/_locks correctMkdir not in flight; initializing
+38 verbose lock using /home/ansible/.npm/_locks/staging-4f1299d27d9d20c7.lock for /home/ansible/Todo/todobackend-client/node_modules/.staging
+39 silly doParallel extract 0
+40 silly doParallel preinstall 0
+41 silly doReverseSerial remove 0
+42 silly doSerial move 0
+43 silly doSerial finalize 0
+44 silly doSerial build 0
+45 silly doSerial global-link 0
+46 silly doParallel update-linked 0
+47 silly doSerial install 0
+48 silly doSerial postinstall 0
+49 verbose unlock done using /home/ansible/.npm/_locks/staging-4f1299d27d9d20c7.lock for /home/ansible/Todo/todobackend-client/node_modules/.staging
+50 silly executeActions Finishing
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly install runPostinstallTopLevelLifecycles
+54 silly build todo-backend-client@1.0.0
+55 info linkStuff todo-backend-client@1.0.0
+56 silly linkStuff todo-backend-client@1.0.0 has /home/ansible/Todo as its parent node_modules
+57 verbose linkBins todo-backend-client@1.0.0
+58 verbose linkMans todo-backend-client@1.0.0
+59 silly install todo-backend-client@1.0.0 /home/ansible/Todo/todobackend-client/todo-backend-client-0391428e
+60 info lifecycle todo-backend-client@1.0.0~install: todo-backend-client@1.0.0
+61 silly lifecycle todo-backend-client@1.0.0~install: no script for install, continuing
+62 silly postinstall todo-backend-client@1.0.0 /home/ansible/Todo/todobackend-client/todo-backend-client-0391428e
+63 info lifecycle todo-backend-client@1.0.0~postinstall: todo-backend-client@1.0.0
+64 silly lifecycle todo-backend-client@1.0.0~postinstall: no script for postinstall, continuing
+65 silly prepublish todo-backend-client@1.0.0 /home/ansible/Todo/todobackend-client/todo-backend-client-0391428e
+66 info lifecycle todo-backend-client@1.0.0~prepublish: todo-backend-client@1.0.0
+67 verbose lifecycle todo-backend-client@1.0.0~prepublish: unsafe-perm in lifecycle true
+68 verbose lifecycle todo-backend-client@1.0.0~prepublish: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/ansible/Todo/todobackend-client/node_modules/.bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ansible/.local/bin:/home/ansible/bin
+69 verbose lifecycle todo-backend-client@1.0.0~prepublish: CWD: /home/ansible/Todo/todobackend-client
+70 silly lifecycle todo-backend-client@1.0.0~prepublish: Args: [ '-c', 'grunt' ]
+71 info lifecycle todo-backend-client@1.0.0~prepublish: Failed to exec prepublish script
+72 verbose stack Error: todo-backend-client@1.0.0 prepublish: `grunt`
+72 verbose stack spawn ENOENT
+72 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+72 verbose stack     at emitTwo (events.js:106:13)
+72 verbose stack     at ChildProcess.emit (events.js:191:7)
+72 verbose stack     at maybeClose (internal/child_process.js:920:16)
+72 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+73 verbose pkgid todo-backend-client@1.0.0
+74 verbose cwd /home/ansible/Todo/todobackend-client
+75 error Linux 3.10.0-514.26.2.el7.x86_64
+76 error argv "/usr/bin/node" "/bin/npm" "install"
+77 error node v6.14.2
+78 error npm  v3.10.10
+79 error file sh
+80 error code ELIFECYCLE
+81 error errno ENOENT
+82 error syscall spawn
+83 error todo-backend-client@1.0.0 prepublish: `grunt`
+83 error spawn ENOENT
+84 error Failed at the todo-backend-client@1.0.0 prepublish script 'grunt'.
+84 error Make sure you have the latest version of node.js and npm installed.
+84 error If you do, this is most likely a problem with the todo-backend-client package,
+84 error not with npm itself.
+84 error Tell the author that this fails on your system:
+84 error     grunt
+84 error You can get information on how to open an issue for this project with:
+84 error     npm bugs todo-backend-client
+84 error Or if that isn't available, you can get their info via:
+84 error     npm owner ls todo-backend-client
+84 error There is likely additional logging output above.
+85 verbose exit [ 1, true ]
